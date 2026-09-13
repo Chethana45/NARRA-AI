@@ -1,0 +1,5 @@
+# Optional: only needed for the fully offline local fallback pipeline
+# (used automatically when GEMINI_API_KEY is not set in backend/.env).
+transformers==4.35.0
+torch==2.1.1
+numpy<2

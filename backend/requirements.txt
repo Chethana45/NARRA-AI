@@ -1,0 +1,15 @@
+fastapi==0.112.0
+uvicorn[standard]==0.24.0
+Pillow==10.1.0
+pyttsx3==2.90
+python-multipart==0.0.6
+python-dotenv==1.0.1
+requests==2.32.3
+pytesseract==0.3.13
+pytest==8.3.3
+httpx==0.27.2
+
+# NOTE: torch + transformers are NOT required unless you want the fully
+# offline local fallback (BLIP + FLAN-T5). See requirements-local.txt.
+# NOTE: OCR (pytesseract) also requires the system 'tesseract-ocr' binary,
+# e.g. `sudo apt-get install tesseract-ocr` on Debian/Ubuntu.
